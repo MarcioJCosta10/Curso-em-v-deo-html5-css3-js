@@ -1,0 +1,433 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"html"
+			],
+			[
+				"m",
+				"map\tTag"
+			],
+			[
+				"o",
+				"overflow\tproperty"
+			],
+			[
+				"s",
+				"specs"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"mar",
+				"margin-left\tproperty"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"G",
+				"Glass"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"Se",
+				"Sensores"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"text",
+				"text-indent\tproperty"
+			],
+			[
+				"texa",
+				"text-align\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"l",
+				"language\tAttr"
+			],
+			[
+				"mu",
+				"mundo"
+			],
+			[
+				"onmou",
+				"onmouseover\tAttr"
+			],
+			[
+				"onmouse",
+				"onmouseout\tAttr"
+			],
+			[
+				"onmouseo",
+				"onmouseover\tAttr"
+			],
+			[
+				"onm",
+				"onmouseout\tAttr"
+			],
+			[
+				"la",
+				"lampada-quebrada"
+			],
+			[
+				"a",
+				"arquivo"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"te",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"Fo",
+				"FonteLogo"
+			],
+			[
+				"fo",
+				"font-family\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"fot",
+				"font-size\tproperty"
+			],
+			[
+				"bo",
+				"bolder\tfont-weight"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"da",
+				"dashed"
+			],
+			[
+				"borders",
+				"border-spacing\tproperty"
+			],
+			[
+				"bl",
+				"_blank"
+			],
+			[
+				"t",
+				"text-align\tproperty"
+			],
+			[
+				"bor",
+				"border-top\tproperty"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"b",
+				"background-color\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tbackground-color"
+			],
+			[
+				"fi",
+				"figcaption\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"TI",
+				"TITLE\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/wamp/www/projetos/olamundo.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"h",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/_css/estilo.css",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/index.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/_css/specs.css",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/specs.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/fale-conosco.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/google-glass.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/multimidia.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/fotos.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/_javascript/funcoes.js",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/testejs.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/testejs04.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/testejs03.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/testejs02.html",
+		"/C/Users/Usuario/Desktop/HTML5/projeto-glass-html5/curso-html5-pacote01/projeto-glass-html5/fundo.jpg",
+		"/C/Users/Usuario/Desktop/maldicao.html"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/projetos/olamundo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

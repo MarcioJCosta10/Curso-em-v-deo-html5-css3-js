@@ -1,0 +1,249 @@
+@charset "UTF-8";  
+					/* Define o conjunto de caracteres */
+					/*Importar fontes do google*/
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);/* Definir fontes  externas*/
+@font-face {
+	font-family:'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+body {			
+			font-family: Arial, sans-serif; /* Aqui defini que toda as fontes não serão serifadas*/
+			background-color: #dddddd;
+			color: rgba(0,0,0,1);
+		}
+/*Configurar a interface*/		
+div#interface {
+	background-color: #ffffff;/* Fundo da interface*/
+	width: 1200px; /* Largura da interface*/
+	margin: -20px auto 0px auto; /*Configuração da margem da interface Ordem cima direita baixo esquerda*/
+	box-shadow:0px 0px 10px rgba(0,0,0,.5);/*Criar sombra no objeto, deslocamento lateral, delocamento vertical, espalhamento e cor da sobra*/
+	padding: 10px 10px 10px 10px; /*Configurar o espaço interno do objeto na mesma ordem cima,direita,baixo,esquerda*/
+}								  /* Posso colocar só uma vez o 10px que o será utilizado para todos os lados*/	
+
+/*Formatação generica para os parágrafos*/
+p{
+	text-align: justify;
+	text-indent: 50px;
+		}
+/*Formatando generica para os links*/
+a {
+	color: #606060;
+	text-decoration:none;
+}
+/*Quando passar o mouse sobre o link ele ficará sublinhado*/
+a:hover{
+	text-decoration: underline;
+}
+
+/*Configurar o icone do óculos*/
+header#cabecalho img#icone{
+	position: absolute;
+	left: 1100px;
+	top: 70px;
+} 
+/*Configurar todos os objetos dentro do cabeçalho*/
+header#cabecalho{
+	border-bottom: 1px #606060 solid; /* Configurar a linha de divisão do cabeçalho, pode se dotted, double, dashed*/
+	height: 150px;	/*Tamanho do cabeçalho*/
+	/*Colocar o logo dentro do cabeçalho - no-repeat é para não repetir- deslocamento lateral e vertical*/
+	background: url("../_imagens/glass-logo-peq.jpg")no-repeat 0px 80px;
+}
+/*Configurar os titulos dentro do header*/
+header#cabecalho h1{		/* Como está dentro do header com id cabecalho e todo objeto como h1*/
+	font-family: 'FonteLogo',san-serif; /*Familia de fonte*/
+	font-size: 30pt; 			/* Tamanho em pontos*/	
+	color: #606060 ; 			/* Cor*/
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);/*Colocar uma sombra*/
+	padding: 0px;	/*Todo objeto tem um paddin(Espaço interno) e um margin(Espaço externo)*/
+	margin-bottom: 0px;/*Toda margem tem os quatro lados C,D,E,B mas podemos escolher só uma*/
+}
+header#cabecalho h2{
+	font-family: 'Open Sans', sans-serif;
+	color: #8888;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 0px;
+}
+/*Formatação de imagens com legendas*/
+figure.foto-legenda{ /* nome da class no arquivo html*/ 
+	position: relative;/*Posição relativa da imagem que deve ser relativada a posição da imagem no código html*/
+	border: 8px solid white; /*Borda da imagem*/
+	box-shadow: 1px 1px 4px black; /*Caixa que a imagem ficara dentro*/
+}
+figure.foto-legenda img {/*Tudo que for imagem terá esse tamanho no figure.foto-legenda*/
+	width: 100%;
+	height: 100%;
+}
+figure.foto-legenda figcaption{
+	opacity: 1; /* Desaparecer a legenda*/
+	position: absolute;/* Posição absoluta em relação ao figure fotolegenda*/
+	top:0px; /*Ficar no topo da legenda*/
+	background-color: rgba(0,0,0,0.4); /* Cor e transparencia da legenda com canal alpha*/
+	color: white; /*Cor da fonte*/
+	width: 100%;/*Largura da legenda*/
+	height: 100%;/*Altura da legenda*/
+	padding: 10px;/*Espaço da legenda*/
+	box-sizing: border-box;/*Borda da legenda*/
+	transition: opacity 1s; /*Efeito de tempo para aparecer a legenda*/
+}
+figure.foto-legenda: hover figcaption{ /*Aparecer quando o mouse ficar em cima dispara uma classe especifica com uma formatação especifica quando passar o mouse por cima*/
+	opacity: 1;
+}
+/* Fazer meu menu ficar flutuando no local correto*/
+nav#menu{
+	display: block; /* Exibir meu menu como um bloco, pois um bloco pode fluturar sobre a tela*/
+}
+/* Formatação do Menu para a lista ul*/
+nav#menu ul{  /* Sempre que a tag tiver um id usaremos o #*/
+	list-style: none; /* Remover os marcadores da lista*/
+	text-transform: uppercase; /* Deixar as letras em maiusculo*/
+	position: absolute;/* Como quero que somente a lista flutue coloco uma posição absoluta pois assim ela pode passar por cima dos documentos*/
+						/* Posição relativa meu menu nav fica preso no seu container*/
+						/* Posição absoluta ele fica livre pelo site*/
+	top:-20px; /*é negativo pois o top 0 tem uma margem quando é negativo fica colado na margem*/
+	left: 300px;
+}
+/*Transformar os itens da lista de formato horizontal para vertical*/
+/* Preciso criar outra classe de formatação do menu nav para cadas item da lista li*/
+nav#menu li{
+	display: inline-block;/* Itens horizontalmente*/
+	background-color: #dddddd;/*Cor de fundo*/
+	padding: 10px; /* controlar espaço dentro do objeto*/
+	margin: 2px;/* Controlar espaço fora do objeto, entre os botões*/
+	transition: background-color 1s; /*Transição do efeito de clique sobre os botões da lista 
+										Vou ficar monitorando o background-color e o tempo que irá durar essa transição*/
+	-webkit-transition: background-color 1s;
+	-moz-transition:background-color 1s;	
+	-o-transition:background-color 1s;
+	-ms-transition:background-color 1s;
+	transition: background-color 1s; /* Códigos do prefixer*/
+}
+/*Criar efeito sobre os botoes da lista de menu*/
+nav#menu li: hover { /* Efeito quando passar o mouse por cima*/
+	background-color: #606060
+}
+/*Esconder meu Menu Principal*/
+nav#menu h1{ /* Meu menu principal esta no nav menu como h1*/
+	display: none; /* para esconder*/
+}
+/* Configurar a cor dos link*/
+nav#menu a{
+	color: #000000;
+	text-decoration: none;/*Tirar o sublinhado*/
+}
+/*Fazer o link mudar de cor quando estiver ativo*/
+nav#menu a:hover{
+	color: #ffffff;/**/
+	text-decoration: underline;/*Fazer o link ser sublinhado só quando for clicado*/
+}
+/*Configurar a section*/
+section#corpo {
+	display: block; /*Ser mostrada como um bloco*/
+	width: 600px;/*Largura*/
+	float: left;/* para o objeto flutuar - precisa estar sempre em bloco ai flutua um do lado do outro*/
+	border-right: 1px solid #606060; /*Colocar uma linha entre a section e aside*/
+	padding-right: 15px;/*Margem interna objeto*/
+}
+/*Aqui vamos formatar o article*/
+/*Aqui vamos formatar todos os h2 do article*/
+article#noticia-principal h2{
+		font-size: 13pt;
+		color: #606060;
+		background-color: #dddddd;
+		padding: 5px 0px 5px 10px;
+		margin: 10px 0px 10px 0px;
+}
+/*Configurando o h1 h2 e o h3 do cabeçalho do artigo header article*/
+header#cabecalho-artigo h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20 pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+/*formatação de uma classe genérica .direita do h3 dentro do header do article */
+.direita{
+	text-align: right;
+}
+/*h2 do header do article*/
+header#cabecalho-artigo h2{
+	font-size: 13pt;
+	color: #cecece;
+	background-color: #ffffff;
+	margin: 0px;
+}
+/*h3 do header do article*/
+header#cabecalho-artigo h3{
+	font-size: 12px;
+	color: #606060;
+}
+/*Configurando a tabela*/
+table#tabelaspec{  /*Aqui é a configuração da borda externa*/
+	border: 2px solid #606060; /*Borda externa*/
+	border-spacing: 0px; /*Borda entre as linhas*/
+	margin-left: auto;/*centralizar a tabela*/
+	margin-right: auto;/*centralizar a tabela*/
+}
+/*Configurando as bordas internas dos dados*/
+table#tabelaspec td{
+	border: 1px solid #606060;/*Borda interna*/
+	padding: 10px ;/*espaço interno de todos os objetos*/
+	text-align: center;/*Alinhar todos os textos a direita right ou center para centralizados*/
+	vertical-align: top;/*alinhamento vertical pode aceitar bottom embaixo ou midlle ao centro*/
+}
+/*Aqui é a formatação para todas as celulas da esquerda*/
+table#tabelaspec td.ce {
+	color: #ffffff;
+	background-color: #606060;
+	vertical-align: top;
+	font-weight: bold;
+}
+/*Aqui é a formatação para todas as celulas da direita*/
+table#tabelaspec td.cd {
+background-color: #cecece;
+}
+/*Aqui é a formatação do caption*/
+table#tabelaspec caption{
+	color: #888888;
+	font-size: 13pt;
+	font-weight: bolder;
+}
+/*Configurando o span dentro do caption*/
+table#tabelaspec caption span {
+	display: block; /*Vai ser apresentado como um bloco flutuante e se desconectará do texto*/
+	float: right; /* Vai flutuar a direita*/
+	color: #000000;
+	font-size: 8pt;
+	margin-top: 10px;
+}
+/*Configurar a lateral*/
+aside#lateral{
+	display: block;
+	width: 450px;
+	float: right;
+	background-color: #dddddd;
+	padding: 55px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.50);
+}
+/*Formatando o h1 e o h2 do aside*/
+aside#lateral h1{
+	margin-top: 0px;
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color:#606060;
+}
+/*Formatando o h2 do aside*/
+aside#letaral h2{
+		background-color: #606060;
+		font-size: 13pt;
+		color: #ffffff;
+		padding: 5px; 
+}
+footer#rodape{
+	clear: both;/*Limpa as formatações dos da section e do aside e será exibido fora dos blocos flutuantes*/
+	border-top: 1px solid #606060;/*Colocar a linha do rodapé*/
+}
+footer#rodape p{
+	text-align: center;
+}
